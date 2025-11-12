@@ -1,6 +1,6 @@
 # SmartMemory Starter
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LiquidMetal-AI/lm-raindrop-demos&base=netlify-smartmemory-starter)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LiquidMetal-AI/netlify-smartmemory-starter)
 
 Minimal starter template demonstrating persistent conversation memory using Raindrop's SmartMemory feature on Netlify.
 
