@@ -53,7 +53,8 @@ export const handler = async (event, context) => {
     const memoryCount = memoryResponse.memories?.length || 0;
 
     // Generate response (demo mode - echoes with memory info)
-    const assistantMessage = `You said: "${message}". I currently have ${memoryCount} memories in this session.`;
+    // Add 1 because we're about to store this interaction
+    const assistantMessage = `You said: "${message}". I currently have ${memoryCount + 1} memories in this session.`;
 
     // Store this interaction in memory
     await raindrop.putMemory.create({
